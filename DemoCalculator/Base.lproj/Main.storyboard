@@ -283,7 +283,7 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cuM-AE-i9d">
-                                <rect key="frame" x="20" y="385" width="75" height="80"/>
+                                <rect key="frame" x="20" y="385" width="179" height="80"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
                                 <state key="normal" title="Button"/>
@@ -312,21 +312,6 @@
                                     <action selector="btnPercent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uTT-Ce-CPT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5p-8t-YHr">
-                                <rect key="frame" x="119" y="385" width="80" height="80"/>
-                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="C"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="40"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="btnClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5PP-ui-hUP"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BUa-1X-lT1">
                                 <rect key="frame" x="0.0" y="179" width="414" height="218"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -341,6 +326,21 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5p-8t-YHr">
+                                <rect key="frame" x="219" y="385" width="80" height="80"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="C"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5PP-ui-hUP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -361,7 +361,7 @@
                             <constraint firstItem="a1V-yw-YcC" firstAttribute="leading" secondItem="nn1-hc-OQJ" secondAttribute="leading" id="4pD-28-L1x"/>
                             <constraint firstItem="1HA-2L-NJk" firstAttribute="trailing" secondItem="6BG-cb-ntj" secondAttribute="trailing" id="4pI-qE-Za9"/>
                             <constraint firstItem="wPc-Qm-rdg" firstAttribute="top" secondItem="e5p-8t-YHr" secondAttribute="bottom" constant="18" id="50g-76-0nj"/>
-                            <constraint firstItem="e5p-8t-YHr" firstAttribute="leading" secondItem="cuM-AE-i9d" secondAttribute="trailing" constant="24" id="55p-tc-db2"/>
+                            <constraint firstItem="e5p-8t-YHr" firstAttribute="leading" secondItem="cuM-AE-i9d" secondAttribute="trailing" constant="20" id="55p-tc-db2"/>
                             <constraint firstItem="i5o-Iw-gKB" firstAttribute="top" secondItem="fyG-T6-5vL" secondAttribute="top" id="5WE-AE-OTJ"/>
                             <constraint firstItem="a1V-yw-YcC" firstAttribute="leading" secondItem="GLO-7g-fo4" secondAttribute="trailing" constant="19" id="5ml-zU-WOS"/>
                             <constraint firstItem="a1V-yw-YcC" firstAttribute="height" secondItem="nn1-hc-OQJ" secondAttribute="height" id="6AT-O9-ggj"/>
@@ -416,7 +416,7 @@
                             <constraint firstItem="6BG-cb-ntj" firstAttribute="leading" secondItem="Qor-b3-hcg" secondAttribute="leading" id="htI-XO-zV6"/>
                             <constraint firstItem="GLO-7g-fo4" firstAttribute="trailing" secondItem="uWW-Rg-oxv" secondAttribute="trailing" id="iUl-CB-3ac"/>
                             <constraint firstItem="zLh-lC-dEe" firstAttribute="width" secondItem="wQa-F4-xT2" secondAttribute="width" id="j2s-wv-yi5"/>
-                            <constraint firstItem="P5w-aY-w60" firstAttribute="leading" secondItem="e5p-8t-YHr" secondAttribute="trailing" constant="17" id="jsJ-We-2OX"/>
+                            <constraint firstItem="P5w-aY-w60" firstAttribute="leading" secondItem="e5p-8t-YHr" secondAttribute="trailing" constant="-83" id="jsJ-We-2OX"/>
                             <constraint firstItem="fyG-T6-5vL" firstAttribute="leading" secondItem="zLh-lC-dEe" secondAttribute="leading" id="k1e-r1-cFL"/>
                             <constraint firstItem="uWW-Rg-oxv" firstAttribute="top" secondItem="nn1-hc-OQJ" secondAttribute="top" id="kBm-cp-lPb"/>
                             <constraint firstItem="xNV-qa-IR7" firstAttribute="leading" secondItem="P5w-aY-w60" secondAttribute="trailing" constant="18" id="kWk-lV-qXY"/>
@@ -464,8 +464,11 @@
         </scene>
     </scenes>
     <designables>
-        <designable name="GLO-7g-fo4">
-            <size key="intrinsicContentSize" width="30.5" height="31"/>
+        <designable name="a1V-yw-YcC">
+            <size key="intrinsicContentSize" width="32.5" height="31"/>
+        </designable>
+        <designable name="zLh-lC-dEe">
+            <size key="intrinsicContentSize" width="33" height="31"/>
         </designable>
     </designables>
     <resources>
